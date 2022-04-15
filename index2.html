@@ -1,0 +1,212 @@
+// warning: this is not a responsive webpage
+<html>
+<head>
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="https:///cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <style>
+    *{
+     margin: 0;
+     padding: 0;
+     font-family: Calibri;
+     box-sizing: border-box;
+}
+.navbar{
+     background-color: blue;
+     height: 5%;
+     width: 100%;
+     padding: 2%;
+}
+.navbar ul li{
+     display: inline;
+     padding: 4%;
+     list-style: none;
+     justify-content: center;
+     color: white;
+}
+.navbar ul li a{
+     display: inline;
+     color: white;
+     text-decoration: none;
+     justify-content: center;
+}
+.navbar ul li a:hover{
+     color: blue;
+     background-color: lightskyblue;
+     border-radius: 15%;
+     padding: 16px;
+}
+.box-main{
+     height: 50vh;
+     width: 100;
+     background-image: url(Nature.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+.box-main .Firsthalf{
+     color: white;
+     position: relative;
+     top: 35%;
+     left: 20%;
+}
+.box-main .Secondhalf{
+     position: relative;
+     top: 15%;
+     left: 60%;
+}
+.container{
+     max-width: 1170px;
+     margin: auto;
+}
+.row{
+     display: flex;
+     flex-wrap: wrap;
+}
+.footer ul{
+     list-style: none;
+}
+.footer{
+     background-color: #24262b;
+     padding: 70px 0;
+}
+.footer-col{
+     width: 25%;
+     padding: 0 15px;
+}
+.footer-col h4{
+     font-size: 18px;
+     color: #ffffff;
+     text-transform: capitalize;
+     margin-bottom: 35px;
+     font-weight: 500;
+     font-family: Calibri;
+     position: relative;
+}
+.footer-col h4::before{
+     content: '';
+     position: absolute;
+     left: 0;
+     bottom: -10px;
+     background-color: #e91e63;
+     height: 2px;
+     box-sizing: border-box;
+     width: 50px;
+}
+.footer-col ul li:not(:last-child){
+     margin-bottom: 10px;
+}
+.footer-col ul li a{
+     font-size: 16px;
+     text-transform: capitalize;
+     color: #ffffff;
+     text-decoration: none;
+     font-weight: 300;
+     color: #bbbbbb;
+     display: block;
+     transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+     color: #ffffff;
+     padding-left: 10px;
+}
+.footer-col .social-links a{
+     display: inline-block;
+     height: 40px;
+     width: 40px;
+     background-color: rgba(255, 255, 255, 0.2);
+     margin: 0 10px 10px 0;
+     text-align: center;
+     line-height: 40px;
+     border-radius: 50%;
+     color: #ffffff;
+     transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+     color: #24262b;
+     background-color: #ffffff;
+}
+/* reponsive */
+@media(max-width: 767px){
+     .footer-col{
+          width: 50%;
+          margin-bottom: 30px;
+     }
+}
+@media(max-width: 574px){
+     .footer-col{
+          width: 100%;
+     }
+}
+  </style>
+</head>
+<body>
+  <header>
+          <nav class="navbar">
+               <ul>
+                    <li style="color: white;"><b>Pro X</b></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Playlists</a></li>
+               </ul>
+          </nav>
+     </header>
+     <content>
+          <div class="box-main">
+               <div class="Firsthalf">
+                    <b>
+                         This is the Educational Website For Everyone.<br>
+                         FREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE!!!!!!<br>
+                         There are computer course, Education of the world and the facts of the world.<br>
+                    </b>
+               </div>
+               <div class="Secondhalf">
+                    <img src="Educational.jpg" alt="Education Image" height="10%" width="10%">
+               </div>
+          </div><br><br>
+          <center>
+               <img src="Gaming Logo.jpg" alt="Gaming Logo" height="10%" width="10%"><br><br>
+               Made By VInayak Chsndra
+          </center><br><br>
+          <footer class="footer">
+               <div class="container">
+                    <div class="row">
+                         <div class="footer-col">
+                              <h4>Courses Later</h4>
+                              <ul>
+                                   <li>Computer  Basic Course</li>
+                                   <li>Computer Advanced Course </li>
+                                   <li>Machine Learning</li>
+                                   <li>Programming</li>
+                                   <li>Microsoft Office</li>
+                              </ul>
+                         </div>
+                         <div class="footer-col">
+                              <h4>Playlists</h4>
+                              <ul>
+                                   <li><a href="#">Education</a></li>
+                                   <li><a href="#">Human Body</a></li>
+                                   <li><a href="#">Small Kid (Vinayak Chandra)</a></li>
+                                   <li><a href="#">Tourism</a></li>
+                                   <li><a href="#">Sanskrit Shlok</a></li>
+                              </ul>
+                         </div>
+                         <div class="footer-col">
+                              <h4>Channel</h4>
+                              <ul>
+                                   <li><a href="#">Channel</a></li>
+                              </ul>
+                         </div>
+                         <div class="footer-col">
+                              <h4>Follow Us</h4>
+                              <div class="social-links">
+                                   <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                   <a href="#"><i class="fab fa-twitter"></i></a>
+                                   <a href="#"><i class="fab fa-instagram"></i></a>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </footer>
+     </content>
+</body>
+<html>
